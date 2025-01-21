@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kiwi Tweaking Utility - Optimize your system performance">
+    <title>Kiwi Tweaking Utility</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="kiwi favicon 96x96.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="kiwi logo 100x100.png" alt="Kiwi Logo" class="logo-img">
+                <span>Kiwi Tweaks</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#purchase">Purchase</a>
+                <a href="benchmarks.html">Benchmarks</a>
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider"></div>
+                    </label>
+                </div>
+            </div>
+            <div class="hamburger-wrapper">
+                <input type="checkbox" id="hamburger-checkbox">
+                <label for="hamburger-checkbox" class="toggle">
+                    <div class="bars" id="bar1"></div>
+                    <div class="bars" id="bar2"></div>
+                    <div class="bars" id="bar3"></div>
+                </label>
+            </div>
+        </div>
+    </nav>
+    <div class="menu-overlay"></div>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <header>
+                    <h1 class="reveal">Kiwi Tweaking Utility</h1>
+                    <p class="subtitle">Optimize your system performance with one click</p>
+                </header>
+            </div>
+            <section class="video-showcase">
+                <div class="container">
+                    <h2 class="reveal">See It In Action</h2>
+                    <div class="video-container reveal">
+                        <video 
+                            width="800" 
+                            height="350"
+                            controls
+                            preload="auto"
+                            poster="thumbimg.png">
+                            <source src="showcase.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div id="purchase" class="download-section reveal">
+                        <h3>Latest Version - v1.0.0</h3>
+                        <a href="#purchase" class="btn btn-primary" data-scroll>
+                            <i class="fas fa-shopping-cart"></i> Purchase Now
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="reveal">Key Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>Performance Optimization</h3>
+                        <p>Optimize your system for maximum speed and efficiency</p>
+                    </div>
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Safe & Reversible</h3>
+                        <p>All optimizations are thoroughly tested and reversible</p>
+                    </div>
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">
+                            <i class="fas fa-sliders-h"></i>
+                        </div>
+                        <h3>Customizable Settings</h3>
+                        <p>Fine-tune your system according to your needs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://discord.gg/N5xCWJnkCa" class="social-link">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="user-agreement.html">User Agreement</a>
+                    <a href="refund-policy.html">Refund Policy</a>
+                </div>
+                <div class="footer-left">
+                    <p>&copy; 2025 Kiwi Tweaking Utility. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>

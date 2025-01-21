@@ -1,0 +1,60 @@
+### **Privacy Policy**
+
+By using and accessing our Website, you agree to the collection, use, and protection of your information as outlined in this Privacy Policy.
+
+### **Information We Collect**
+
+**Personal Data:**  
+When you make a purchase or interact with our Website, we may collect personal data, including your name, email address, billing/shipping addresses, and payment details.
+
+**Non-Personal Information:**  
+We may collect certain non-identifiable data related to your interactions with the Website, such as your IP address, browser details, device type, operating system, and pages you visit on our site.
+
+### **How We Use Your Information**
+
+**Order Fulfillment:**  
+Your personal data is used to process transactions, complete orders, and communicate with you regarding the status of your purchases.
+
+**Website Improvements:**  
+We use non-personal data to help enhance and refine the performance, design, and overall user experience of our Website.
+
+**Communications:**  
+Your email address may be used to send you order-related messages, promotional offers, or important product updates. You may opt-out of receiving marketing emails at any time.
+
+### **Protecting Your Information**
+
+**Security:**  
+We implement reasonable and appropriate security measures to protect your personal information from unauthorized access, alteration, or destruction.
+
+**Third-Party Providers:**  
+In some cases, we may work with third-party service providers to process payments, manage customer support, or analyze usage data. These providers only have access to the data necessary to perform their services, and they are contractually obligated to maintain the privacy of your information.
+
+### **Cookies and Tracking**
+
+**Cookies:**  
+We use cookies and similar technologies to enhance your experience on the Website, analyze how our site is used, and tailor content and advertising to your preferences. You can adjust your cookie settings through your browser if you wish to manage or disable them.
+
+### **Tampering Prevention**
+
+**No Unauthorized Modification:**  
+Any attempt to reverse engineer, decompile, alter, or otherwise manipulate the software or its underlying structure is strictly prohibited. Violations will result in immediate revocation of your license to use the Website.
+
+### **Sharing Your Information**
+
+We do not sell, share, or disclose your personal data to third parties except in the following cases:
+
+- **Service Providers:** We may share your data with trusted third-party partners who assist in Website operation and business activities.
+- **Legal Compliance:** Your information may be disclosed to comply with legal obligations, enforce our policies, or protect the rights and safety of our users or the company.
+- **Business Transitions:** In the event of a sale, merger, or transfer of business assets, your information may be transferred to the new owners.
+
+### **Your Rights and Choices**
+
+You have the right to request that we delete your personal information at any time, and we are committed to doing so without unnecessary delay. We do not engage in profiling or collect special categories of personal data as outlined in GDPR. Your personal data is retained for a maximum of **5 years** before being deleted.
+
+### **Policy Changes**
+
+We reserve the right to modify or update this Privacy Policy at any time. The "Last updated" date at the top of this page will indicate the most recent changes. By continuing to use our Website after changes are made, you accept the updated Privacy Policy.
+
+### **Contact Information**
+
+If you have any questions or concerns regarding this Privacy Policy, feel free to contact us at [Contact Email or Phone Number].
