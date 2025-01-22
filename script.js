@@ -41,10 +41,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const hamburgerCheckbox = document.getElementById('hamburger-checkbox');
 const navLinks = document.querySelector('.nav-links');
 const menuOverlay = document.querySelector('.menu-overlay');
+const hamburgerWrapper = document.querySelector('.hamburger-wrapper');
 
-if (hamburgerCheckbox) {
-    hamburgerCheckbox.addEventListener('change', (e) => {
+if (hamburgerWrapper) {
+    hamburgerWrapper.addEventListener('click', (e) => {
         e.stopPropagation();
+        hamburgerCheckbox.checked = !hamburgerCheckbox.checked;
         if (hamburgerCheckbox.checked) {
             // Opening the menu
             navLinks.classList.add('active');
@@ -60,7 +62,7 @@ if (hamburgerCheckbox) {
 // Close mobile menu when clicking outside
 document.addEventListener('click', (e) => {
     if (navLinks && navLinks.classList.contains('active')) {
-        if (!navLinks.contains(e.target) && !hamburgerCheckbox.contains(e.target)) {
+        if (!navLinks.contains(e.target) && !hamburgerWrapper.contains(e.target)) {
             navLinks.classList.remove('active');
             menuOverlay.classList.remove('active');
             hamburgerCheckbox.checked = false;
