@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Add this at the top of the file, after the reset styles */
+html {
+    transition: all 0.3s ease-in-out;
+}
+
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
@@ -12,6 +17,7 @@ body {
     color: #333;
     background: linear-gradient(135deg, #6e22b2, #d455a0);
     min-height: 100vh;
+    transition: all 0.3s ease-in-out;
 }
 
 /* Container */
@@ -97,6 +103,7 @@ video::-webkit-media-controls-panel {
     top: 0;
     z-index: 1000;
     padding: 0.5rem 0; /* Reduced from default padding */
+    transition: all 0.3s ease-in-out;
 }
 
 .navbar .container {
@@ -166,7 +173,7 @@ video::-webkit-media-controls-panel {
     font-weight: 500;
     padding: 0.6rem 1.2rem;
     border-radius: 8px;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
     position: relative;
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -402,6 +409,7 @@ h1, h2, h3, p {
     backdrop-filter: blur(10px);
     border-radius: 10px;
     max-width: 800px;
+    transition: all 0.3s ease-in-out;
 }
 
 .download-section h3 {
@@ -410,53 +418,37 @@ h1, h2, h3, p {
 }
 
 .btn {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
     padding: 0.8rem 1.5rem;
     border-radius: 25px;
     font-weight: 500;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
-/* Button styling with just shadow animation */
-.btn-primary {
-    background: #6e22b2;
+.btn-secondary {
+    background-color: rgba(255, 255, 255, 0.2);
     color: white;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin: 1rem auto;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.3);
     text-decoration: none;
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    border-radius: 25px;
-    padding: 0.8rem 1.5rem;
-    box-shadow: 0 0 0 rgba(78, 255, 145, 0);
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #ff69b4, #6e22b2);
+    color: white;
+    border: none;
 }
 
 .btn-primary:hover {
     text-decoration: none;
-    box-shadow: 0 0 30px rgba(78, 255, 145, 0.5);
-}
-
-/* Remove all the previous button animations */
-.btn-primary::before,
-.btn-primary::after {
-    display: none;
-}
-
-.btn-primary i {
-    margin-right: 0.5rem;
-}
-
-.btn-secondary {
-    background: rgba(255, 255, 255, 0.1);
-    color: whitesmoke;
-    border: 1px solid whitesmoke;
-}
-
-.btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
 }
 
 /* Footer */
@@ -464,6 +456,7 @@ footer {
     background: rgba(0, 0, 0, 0.2);
     padding: 2rem 0;
     margin-top: 4rem;
+    transition: all 0.3s ease-in-out;
 }
 
 .footer-content {
@@ -494,7 +487,7 @@ footer {
 .social-link {
     color: whitesmoke;
     font-size: 1.8rem;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .social-link:hover {
@@ -719,7 +712,7 @@ footer {
     text-decoration: none;
     margin-bottom: 2rem;
     border-radius: 5px;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .back-button:hover {
@@ -744,7 +737,7 @@ footer {
 .footer-links a {
     color: whitesmoke;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
     font-size: 0.9rem;
 }
 
@@ -800,7 +793,7 @@ footer {
 .social-link {
     color: whitesmoke;
     font-size: 1.8rem;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 .social-link:hover {
@@ -864,18 +857,21 @@ input:checked + .slider:before {
 [data-theme="dark"] body {
     background: linear-gradient(135deg, #2d0a3f, #3f0a2d);
     color: whitesmoke;
+    transition: all 0.3s ease-in-out;
 }
 
 [data-theme="dark"] .navbar {
     background: rgba(20, 10, 25, 0.2);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 [data-theme="dark"] .feature-card {
     background: rgba(20, 10, 25, 0.2);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 [data-theme="dark"] .feature-card:hover {
@@ -887,21 +883,25 @@ input:checked + .slider:before {
 
 [data-theme="dark"] .feature-icon {
     background: rgba(255, 105, 180, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 [data-theme="dark"] .feature-icon i {
     color: #ff69b4;
+    transition: all 0.3s ease-in-out;
 }
 
 [data-theme="dark"] .download-section {
     background: rgba(20, 10, 25, 0.2);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 [data-theme="dark"] .btn-primary {
     background: #ff69b4;
     color: white;
+    transition: all 0.3s ease-in-out;
 }
 
 [data-theme="dark"] .btn-primary:hover {
@@ -912,11 +912,13 @@ input:checked + .slider:before {
 
 [data-theme="dark"] .footer {
     background: rgba(20, 10, 25, 0.3);
+    transition: all 0.3s ease-in-out;
 }
 
 [data-theme="dark"] .nav-links a {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 [data-theme="dark"] .nav-links a:hover {
@@ -1105,4 +1107,42 @@ input:checked + .slider:before {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Update existing elements to include transitions */
+.navbar,
+.feature-card,
+.download-section,
+.benchmark-card,
+.footer,
+.nav-links a,
+.btn,
+.social-link,
+h1, h2, h3, p,
+.feature-icon,
+.feature-icon i {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Dark Theme transitions */
+[data-theme="dark"] body {
+    transition: all 0.3s ease-in-out;
+}
+
+[data-theme="dark"] .navbar,
+[data-theme="dark"] .feature-card,
+[data-theme="dark"] .download-section,
+[data-theme="dark"] .benchmark-card,
+[data-theme="dark"] .footer,
+[data-theme="dark"] .nav-links a,
+[data-theme="dark"] .btn,
+[data-theme="dark"] .social-link {
+    transition: all 0.3s ease-in-out;
 }

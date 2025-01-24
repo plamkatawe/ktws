@@ -96,16 +96,6 @@ function setActiveLink() {
 // Call setActiveLink on page load
 document.addEventListener('DOMContentLoaded', setActiveLink);
 
-// Purchase button click handler (changed from download)
-const purchaseBtn = document.querySelector('.btn-primary');
-if (purchaseBtn) {
-    purchaseBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        // Add purchase logic here
-        alert('Redirecting to purchase...');  // Changed alert message
-    });
-}
-
 // Add hover effect to feature cards
 document.querySelectorAll('.feature-card').forEach(card => {
     card.addEventListener('mouseenter', () => {
